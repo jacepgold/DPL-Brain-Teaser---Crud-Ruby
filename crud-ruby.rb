@@ -68,8 +68,6 @@ def add_user
   phone = gets.strip
 
   puts "Creating user...".yellow
-  
-  params = Utils.user_params
 
   puts "\n\nMake call to server with a put request\n\n".red
 end
