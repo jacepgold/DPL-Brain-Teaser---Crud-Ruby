@@ -28,6 +28,17 @@ def delete_request(id)
   puts "User Deleted"
 end
 
+def creaet_user
+  # @result = HTTParty.post(@urlstring_to_post.to_str, 
+  #   :body => { :subject => 'This is the screen name', 
+  #              :issue_type => 'Application Problem', 
+  #              :status => 'Open', 
+  #              :priority => 'Normal', 
+  #              :description => 'This is the description for the problem'
+  #            }.to_json,
+  #   :headers => { 'Content-Type' => 'application/json' } )
+end
+
 def view_all
   @users.each do |user|
     puts "\n----------------------------------------------"
